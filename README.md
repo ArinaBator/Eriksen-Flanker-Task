@@ -27,8 +27,8 @@ To exit the experiment during a session, press F7.
 
 #### Cloning a repository
 ```bash
-git clone https://github.com/ArinaBator/flanker-test.git
-cd flanker-test
+git clone https://github.com/ArinaBator/Eriksen-Flanker-Task.git
+cd Eriksen-Flanker-Task
 ```
 
 #### Run the project
