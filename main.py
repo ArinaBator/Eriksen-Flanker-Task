@@ -230,6 +230,10 @@ event.waitKeys(keyList=['space'])
 
 for trial_num in range(60):
     run_trial("Sesja eksperymentalna", trial_num + 1, part=3)
+    
+    pause.draw()
+    win.flip()
+    core.wait(0.8)
 
 # Saving the results of the experimental session
 save_results(results)
@@ -241,3 +245,4 @@ win.flip()
 core.wait(3.0)
 
 win.close()
+
