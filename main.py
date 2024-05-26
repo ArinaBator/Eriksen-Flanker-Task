@@ -92,7 +92,7 @@ def save_results(results):
     # Saving results to a CSV file
     with open(filename, mode='w', newline='') as file:
         writer = csv.writer(file)
-        writer.writerow(["nazwa sesji", "numer próby", "bodziec", "wciśnięty klawisz (L - lewy przycisk kierunkowy, P - prawy przycisk kierunkowy", "poprawność reakcji", "czas reakcji [ms]"])
+        writer.writerow(["nazwa sesji", "numer próby", "bodziec", "wciśnięty klawisz (L - lewy przycisk kierunkowy, P - prawy przycisk kierunkowy)", "poprawność reakcji", "czas reakcji [ms]"])
         writer.writerows(results)
 
 # Displaying instructions
